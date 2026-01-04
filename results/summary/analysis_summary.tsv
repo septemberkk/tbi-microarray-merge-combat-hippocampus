@@ -1,0 +1,16 @@
+
+item	value
+datasets_used	GSE59645; GSE115614
+data_type	Expression profiling by array 
+merged_samples	GSM1441403;GSM1441404;GSM1441405;GSM1441406;GSM1441407;GSM3185063;GSM3185064;GSM3185065;GSM3185066;GSM3185067
+n_samples_total	10
+n_control_sham	4
+n_tbi	6
+batch_correction_method	sva::ComBat
+de_method	limma + eBayes
+contrast	TBI vs Sham
+logFC_cutoff	1
+adjP_cutoff	0.05
+n_DEG_sig_total	539
+n_up	319
+n_down	220
